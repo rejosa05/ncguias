@@ -2,54 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <title>Narejiel Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="css/general.css" />
-    <title> Document</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#" class="logo">
-                <h2><span>P</span>ORTPOLIO</h2>
-            </a>
-            <ul>
-                <li><a href="#">Home</a></li>
-            </ul>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-        </nav>
+        <a href="#" class="logo">PORTPOLIO</a>
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
 
-        <div class="content-wrapper">
-            <div class="content-left">
-                <p class="lead"> Hello I am </p>
-                <div class="txt-content">
-                    <div class="change-txt"></div>
-                </div>
-                <p>
-                    Hi Everyone, I'm Narijiel Vincent from Butuan City. I'm attending this school because it has always been something I've been fascinated
+    <section class="hero">
+        <div class="hero-txt">
+            <h5></h5>
+            <h4>I am</h4>
+            <h1>NAREJIEL VINCENT</h1>
+            <p>
+                Hi Everyone, I'm Narijiel Vincent from Butuan City. I'm attending this school because it has always been something I've been fascinated
                     with or was looking forward to since childhood. I love meeting new people and going on trips
                     and I am more excited to learn more and gain more knowledge from this class.
-                </p>
-                <button type="submit"> Hire Me</button>
-                <button type="submit"> Resume</button>
-            </div>
-            <div class="content-right">
-                <img src="img.jpg" alt="">
-            </div>
+            </p>
+            <a href="#" class="ctaa"></i>Resume</a>
+            <a href="#" class="ctaa"><i class="ri-mail-fill"></i>Hire Me</a>
         </div>
-        <div class="skills">
-            <h2>Skills</h2>
-            <div><i class="fa-brands fa-html5 html"></i></div>
-            <div><i class="fa-brands fa-css3-alt css3"></i></div>
-            <div><i class="fa-brands fa-js js"></i></div>
-            <div><i class="fa-brands fa-python python"></i></div>
+        <div class="hero-img">
+            <img src="img.png" alt="">
         </div>
-    </header>
-    <script src="js/script.js" defer="defer"></script>
+    </section>
+
+    <div class="icons">
+        <a href="#"><i class="ri-facebook-line"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-linkedin-line"></i></a>
+    </div>
+
+    <div class="scroll-down">
+        <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
