@@ -1,19 +1,19 @@
-const typingText = document.querySelector(".change-txt");
-let Designation = ["Narijiel Vincent", "Front End Developer", "Student", "Back End Developer"];
+let menu = document.querySelector('#menu-icon');
+let navlist = document.querySelector('.navlist');
 
-let arrayIndex = 0;
-
-function ChangingTxt() {
-    if (arrayIndex < Designation.length) {
-        typingText.innerHTML = Designation[arrayIndex];
-        arrayIndex = arrayIndex + 1;
-    } else {
-        arrayIndex = 0;
-        typingText.innerHTML = Designation[arrayIndex];
-        arrayIndex = arrayIndex + 1;
-    }
+menu.onclick = () => {
+    menu.classList.toggle('bx-x');
+    navlist.classList.toggle('open');
 }
 
-console.log("Hello world!");
-setInterval(ChangingTxt,5000);
-ChangingTxt();
+const sr = ScrollReveal ({
+    distance: '65px',
+    duration: 2600,
+    delay: 450,
+    reset: true
+});
+
+sr.reveal('.hero-txt',{delay:200, origin: 'top'});
+sr.reveal('.hero-img',{delay:450, origin: 'top'});
+sr.reveal('.icons',{delay:500, origin: 'left'});
+sr.reveal('.scroll-down',{delay:500, origin: 'right'});
