@@ -4,7 +4,7 @@
     --primary-bg-color: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     --secondary-bg-color: #212f3d;
     --txt-white: #fff;
-    --box-shadow: 10px 8px #28b463;
+    --secondary-txt-color: linear-gradient(to right, #004726 0%, #55EDAB 100%);
     --primary-txt-color: #28b463;
 }
 
@@ -79,7 +79,7 @@ section {
 .hero-txt h1 {
     font-size: 70px;
     line-height: 1;
-    color: var(--txt-white);
+    color: var(--secondary-txt-color);
     margin: 0 0 30px;    
 }
 
