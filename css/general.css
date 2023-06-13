@@ -78,6 +78,7 @@ section {
 .hero-txt h1 {
     font-size: 70px;
     line-height: 1;
+    border-style: solid;
     border: 1px solid #030800;
     color: var(--secondary-txt-color);
     margin: 0 0 30px;    
