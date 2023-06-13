@@ -4,6 +4,7 @@
     --primary-bg-color: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     --secondary-bg-color: #212f3d;
     --txt-white: #fff;
+    --secondary-txt-color: #dcf7cd;
 }
 
 * {
