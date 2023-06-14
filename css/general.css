@@ -164,7 +164,7 @@ margin: 0 0 30px;
     display: block;
     font-size: 25px;
     color: var(--txt-white);
-    background: var(--primary-txt-color);
+    background: var(--secondary-txt-color);
     border-radius: 30px;
     transition: all .50s ease;
  }
@@ -244,7 +244,7 @@ margin: 0 0 30px;
         right: -100%;
         width: 300px;
         height: 40vh;
-        background: var(--primary-txt-color);
+        background: var(--secondary-bg-color);
         display: flex;
         align-items: center;
         flex-direction: column;
