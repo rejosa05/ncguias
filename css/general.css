@@ -164,7 +164,7 @@ margin: 0 0 30px;
     display: block;
     font-size: 25px;
     color: var(--txt-white);
-    background: var(--secondary-txt-color);
+    background: var(--secondary-txt-color) transparent;
     border-radius: 30px;
     transition: all .50s ease;
  }
